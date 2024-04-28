@@ -1,0 +1,17 @@
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>username</th>
+        <th>name</th>
+        <th>Last name</th>
+    </tr>
+    <tbody>
+    <tr>
+        <td th:utext="${currentUser.id}"></td>
+        <td th:utext="${currentUser.username}"></td>
+        <td th:utext="${currentUser.name}"></td>
+        <td th:utext="${currentUser.lastName}"></td>
+    </tr>
+    </tbody>
+    <a href="/logout">logout</a>
+</table>
